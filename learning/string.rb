@@ -39,6 +39,24 @@ puts 'Luciano'[-3,3]
 
 puts "Luciano".bytesize
 
+a = "LUCIANO"
+puts a.capitalize!
+puts a
+
+puts 'Luciano'.casecmp?('Luciano')
+
+puts "Luciano".center(20, "X")
+
+a = "Luciano"
+
+a.concat(32 ,'Dias',32, 'Paulista')
+
+puts a
+
+
+puts a.delete_prefix("Luc")
+
+
 
 
 
