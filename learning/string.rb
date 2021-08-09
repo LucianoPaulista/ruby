@@ -18,3 +18,28 @@ puts String.new(capacity: 4096)
 
 puts String.new('hello', encoding: 'UTF-8', capacity: 25)
 
+puts "%05d" % 123
+puts "Hello from " + self.to_s
+
+s = 'foo'
+s << 'bar'
+puts s
+
+s = 'foo'
+s << 33
+puts s
+
+puts s <=> s
+#regex get a index number
+puts 'Luciano' =~ /cian/
+
+puts 'Luciano'[-1]
+
+puts 'Luciano'[-3,3]
+
+puts "Luciano".bytesize
+
+
+
+
+
