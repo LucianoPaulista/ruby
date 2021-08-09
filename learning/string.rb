@@ -55,6 +55,18 @@ puts a
 
 
 puts a.delete_prefix("Luc")
+puts a.delete_suffix("sta")
+
+puts a.each_char{ |c| print c, ' '}
+
+"Luciano\nDias\nPaulista".each_line(chomp: true){|s| p s}
+
+puts "Luciano".empty?
+puts " ".empty?
+
+puts "Luciano".end_with?("ano", "x")
+
+"Luciano".gsub(/[aeiou]/, '*')
 
 
 
